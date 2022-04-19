@@ -11,10 +11,10 @@ nav a {
     text-align: none;
     display: block;
     padding: 0.5em 1em;
-    background-color: rgb(173, 173, 150);
-    color: #c0a1a1;
-    border: 1px solid rgb(174, 174, 189);
+    background-color: #d9556d;
+    color: #e9ecf2;
+    border: 1px solid #0a1926;
 }
 nav a:hover {
-    background-color: rgb(190, 190, 175);
+    background-color: #a69b8d);
 }
