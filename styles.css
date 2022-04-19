@@ -1,0 +1,20 @@
+body{
+    font-size: 125% ;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+nav a {
+    text-align: none;
+    display: block;
+    padding: 0.5em 1em;
+    background-color: rgb(173, 173, 150);
+    color: #c0a1a1;
+    border: 1px solid rgb(174, 174, 189);
+}
+nav a:hover {
+    background-color: rgb(190, 190, 175);
+}
