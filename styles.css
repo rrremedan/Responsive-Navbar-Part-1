@@ -1,20 +1,40 @@
 body{
     font-size: 125% ;
+    color: #484141;
+    background-color: #f2f2f2;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
+/* center all content in the page */
+header, main, footer {
+    width: 40em;
+    max-width: 98%; 
+    margin: 2em auto;
+}
+/* style the navbar */
 nav ul{
     list-style-type: none;
     margin: 0; 
     padding: 0;
     display: flex;
 }
-nav a {
-    text-align: none;
+nav#menu a {
+    text-align: center;
     display: block;
+    font-weight: 700;
     padding: 0.5em 1em;
     background-color: #d9556d;
     color: #e9ecf2;
     border: 1px solid #0a1926;
 }
-nav a:hover {
-    background-color: #a69b8d);
+nav#menu a:hover {
+    background-color: #a67356;
+}
+a:link {
+    color: #970ff2;
+}
+a:visited {
+    color: #59098e;
+}
+a:hover {
+    color: #2c7f06;
 }
