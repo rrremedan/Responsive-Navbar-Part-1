@@ -11,11 +11,15 @@ header, main, footer {
     margin: 2em auto;
 }
 /* style the navbar */
+nav {
+    background-color: #d9556d;
+}
 nav ul{
     list-style-type: none;
     margin: 0; 
     padding: 0;
     display: flex;
+    flex-direction: column;
 }
 nav#menu a {
     text-align: center;
@@ -39,4 +43,9 @@ a:hover {
     color: #2c7f06;
 }
 
-/*styls for screens larger than 650px */ 
+/* tablet view and up */
+@media only screen and (min-width: 550px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
