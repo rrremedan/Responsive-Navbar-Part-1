@@ -10,14 +10,7 @@ header, main, footer {
     max-width: 98%; 
     margin: 2em auto;
 }
-/* navbartoggle */
-#menu-toggle {
-    width: 2em;
-    height: 2em;
-    background-color:#999999;
-    border-radius: 2em;
-    transition: all 2s;
-}
+
 /* style the navbar */
 nav ul {
     list-style-type: none;
@@ -28,39 +21,20 @@ nav ul {
     height: 0;
     opacity: 0;
 }
-nav ul.open {
+nav.open ul {
     opacity: 1;
     height: auto;
 }
 nav a :link {
     text-decoration: none;
     display: block;
-}
-    background-color: #d9556d;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 0;
-    opacity: 0;
-}
-nav ul.open {
-    opacity: 1;
-    height: auto;
-}
-nav#menu a {
-    text-align: center;
-    display: block;
-    font-weight: 700;
+    font-size: 700;
     padding: 0.5em 1em;
-    background-color: #d9556d;
-    color: #e9ecf2;
-    border: 1px solid #0a1926;
+    background-color:#999999;
+    color:#101010;
+    border: 1px solid black;
 }
-nav#menu a:hover {
+nav a:hover {
     background-color: #a67356;
 }
 a:link {
@@ -69,11 +43,41 @@ a:link {
 a:visited {
     color: #59098e;
 }
-a:hover {
+A:hover {
     color: #2c7f06;
 }
+a:active {
+    color: black;
+}
+a.current {
+    background-color: #a38e82;
+    color: #101010;
+}
+.material-symbols-outlined {
+    font-variation-settings: 
+    'FILL'0,
+    'wght'400,
+    'GRAD'0,
+    'opsz'48
+}
 
-
+/* navbartoggle */
+#menu-toggle {
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    transition: all 0.3s;
+}
+#menu-toggle:hover {
+    background-color:#99999973;
+}
+#menu-toggle div {
+    width: 50%;
+    height: 3px;
+    background-color: #101010;
+    margin: 4px auto;
+    transform: translateY(12px);
+}
 /* tablet view and up */
 @media only screen and (min-width: 600px) {
     nav ul {
