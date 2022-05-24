@@ -77,6 +77,18 @@ a.current {
     background-color: #101010;
     margin: 4px auto;
     transform: translateY(12px);
+    transition: all 0.3s;
+   
+}
+#menu-toggle.open div .one {
+    transform: translateY(16px);
+    transform: rotate(0.125turn);
+}
+#menu-toggle.open div.two {
+    opacity: 0;
+}
+#menu-toggle.open div.three {
+    transform: translateY(2px);
 }
 /* tablet view and up */
 @media only screen and (min-width: 600px) {
