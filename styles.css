@@ -25,7 +25,7 @@ nav.open ul {
     opacity: 1;
     height: auto;
 }
-nav a :link {
+nav a:link {
     text-decoration: none;
     display: block;
     font-size: 700;
@@ -81,14 +81,13 @@ a.current {
    
 }
 #menu-toggle.open div .one {
-    transform: translateY(16px);
-    transform: rotate(0.125turn);
+    transform:translateY(16px) rotate(0.125turn);
 }
 #menu-toggle.open div.two {
     opacity: 0;
 }
 #menu-toggle.open div.three {
-    transform: translateY(2px);
+    transform: translateY(4px) rotate(-0.125turn);
 }
 /* tablet view and up */
 @media only screen and (min-width: 600px) {

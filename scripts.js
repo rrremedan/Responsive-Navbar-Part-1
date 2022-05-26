@@ -12,15 +12,9 @@ window.onload = function() {
         toggle.classList.add("open");
     }
     // add a toggle click function, which serves as an on-off button
-    toggle.onclick = function() { 
-       if (globalNavbar.classList.contains("open")) {
-            globalNavbar.classList.remove("open");
-            toggle.classList.remove("open");
-        }
-    else {
-        globalNavbar.classList.remove("open"); 
-        toggle.classList.add("open");
-        }
+    toggle.onclick = function() {        
+        globalNavbar.classList.toggle("open"); 
+        toggle.classList.toggle("open");
     }
 }
 window.onresize = function() {
