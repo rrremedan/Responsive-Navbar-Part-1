@@ -28,7 +28,7 @@ nav.open ul {
 nav a:link {
     text-decoration: none;
     display: block;
-    font-size: 700;
+    font-weight: 700;
     padding: 0.5em 1em;
     background-color:#999999;
     color:#101010;
